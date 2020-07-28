@@ -1,0 +1,37 @@
+.container{
+	position: relative;
+	border: 1px solid black;
+	border-collapse: collapse;
+	height: 600px;
+	width: 600px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+body
+{
+	height: 100vh;
+	/*background-image: linear-gradient(0deg,#888,#222 50%, #111 75%);*/
+}
+h1  {
+	text-align: center;
+
+}
+#reset{
+	text-align: center;
+	margin-bottom: 30px;
+
+}
+
+.cell { 
+	width:6px;
+	height:6px;
+	float: left;
+	margin: 0;
+	padding: 0;
+	border: 1px solid black;
+	box-sizing:border-box;
+} 
+.blackcell{
+	background-color: black;
+}
