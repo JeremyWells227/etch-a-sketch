@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <link href="styles.css" rel="stylesheet"> 
-<script src="index.js"></script>
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
@@ -9,7 +8,12 @@
 <body>
 	<h1>Etch a Sketch</h1>
 	<div id="reset"><button id="resetbutton" onClick="resetGrid()" >Reset</button></div>
+		<label for="canvassize">Canvas Size (px):</label><input id="canvassize"  type="text" value=600 />
+		<label for="boxsize">Box Size (px):</label><input id="boxsize" type="text" value=5 />
+		<button onClick=createGrid()>Create new grid</button>
+
 	<div class="container" id="grid">
 	</div>
 </body>
+<script src="index.js"></script>
 </html>
